@@ -79,7 +79,7 @@ body {
 .hex h1 {
   bottom: 50%;
   padding-top:50%;
-  font-size: 1.5em;
+  font-size: 0.8em;
   z-index: 1;
   -webkit-transform:translate3d(0,-100%,0);
       -ms-transform:translate3d(0,-100%,0);
@@ -162,6 +162,6 @@ body {
 
 @media (max-width: 400px) {
     #hexGrid {
-        font-size: 13px;
+        font-size: 8px;
     }
 }
