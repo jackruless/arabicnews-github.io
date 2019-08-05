@@ -8,11 +8,11 @@ body {
 #hexGrid {
   display: flex;
   flex-wrap: wrap;
-  width: 90%;
+  width: 40%;
   margin: 0 auto;
   overflow: hidden;
   font-family: 'Raleway', sans-serif;
-  font-size: 15px;
+  font-size: 9px;
   list-style-type: none;
 }
 
@@ -79,7 +79,7 @@ body {
 .hex h1 {
   bottom: 50%;
   padding-top:50%;
-  font-size: 1.5em;
+  font-size: 0.8em;
   z-index: 1;
   -webkit-transform:translate3d(0,-100%,0);
       -ms-transform:translate3d(0,-100%,0);
@@ -112,7 +112,7 @@ body {
 }
 
 /*** HEXAGON SIZING AND EVEN ROW INDENTATION *****************************************************************/
-@media (min-width:1201px) { /* <- 5-4  hexagons per row */
+@media (min-width:1200px) { /* <- 5-4  hexagons per row */
   #hexGrid{
     padding-bottom: 4.4%
   }
@@ -136,7 +136,7 @@ body {
   }
 }
 
-@media (max-width: 900px) and (min-width:601px) { /* <- 3-2  hexagons per row */
+@media (max-width: 1000px) and (min-width:601px) { /* <- 3-2  hexagons per row */
   #hexGrid{
     padding-bottom: 7.4%
   }
@@ -148,7 +148,7 @@ body {
   }
 }
 
-@media (max-width: 600px) { /* <- 2-1  hexagons per row */
+@media (max-width: 700px) { /* <- 2-1  hexagons per row */
   #hexGrid{
     padding-bottom: 11.2%
   }
@@ -160,8 +160,8 @@ body {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 700px) {
     #hexGrid {
-        font-size: 13px;
+        font-size: 2px;
     }
 }
